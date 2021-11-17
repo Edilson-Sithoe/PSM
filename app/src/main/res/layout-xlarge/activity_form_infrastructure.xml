@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.FormInfrastructure">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTVLInfrastru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="INFRASTRUCTURE"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/idTVElect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="ELECTRICITY"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILTypeOfInter"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVMaSrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="What is your main source of power/electricity?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkEDM"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="National Grid (EDM)">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkGenerator"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Generator">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkSolarPanels"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Solar System">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOther"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Other">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILTPoOut"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVPowOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="How often do you get power outage?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOutage"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No outage in the last 6 months">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOutLesHour"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Outage of less than 2 hours in the last month">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkFrquent"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Frequent or prolonged outages of more than 2 hours in the last month">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkWeekly"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Weekly outages ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkDaily"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Daily outages">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILLastPO"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVLastPO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="When was the last power outage?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkBToYes"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Between today and yesterday ">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkThWeek"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="This week">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkThMonth"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="This month ">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkThYear"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="This year">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILDurPO"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVDuriPO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="What is the duration of the typical power outage?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkLesThanMin"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Less than a minute">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkFewMinute"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Few minutes   ">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkLessThanH"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Less than an hour">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkBetweeOneEi"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Between 1-8 hours">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILShePO"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVSceduPO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Are there scheduled power outages?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkYesOR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Yes">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkNOoR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkDontKnow"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Don't know">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/chkDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:inputType="text"
+                android:text="Days"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"></CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSecSrcElect"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVSecSrcElec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Does the health facility have a secondary source of electricity?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkNo"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkGeneratorSec"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Generator">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkSolPanels"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Solar Panels">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOtherSec"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Other">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSecProvHosp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idTVSecProvHosp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Does the secondary power source provide power to the entire hospital?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkYesProvPO"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Yes">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkNoProvPO"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSecPoSrc"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVSecPoSrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="If it is only part, which of the following areas receives power from the secondary power source?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkICU"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="ICU">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOpTheatre"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Operating Theatre     ">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkByEmrgeRoom"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Emergency Room">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILOther"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Other"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILComPoSrc"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Comments on the secondary power source"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idComPoSrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILElectUsaLast"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What was the electricity usage of the last month (# kWh)?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idElectUsaLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILCostOrElect"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What was the cost/electricity bill for the last month (# Metical)?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idCostOrElect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILElectSystem"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+
+            <TextView
+                android:id="@+id/idElectSystem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Condition of the electrical system"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkDanger"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Dangerous ">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkPoor"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Poor">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkAdequate"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Adequate">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkGood"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Good">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

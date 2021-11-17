@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.FormMedGasSystem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTVLOxSyst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="OXYGEN SYSTEM"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILAVGConsuming"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the average consumption of O2 of the Health facility (m3/year)?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtConsumMGS"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:importantForAutofill="no"
+                android:inputType="textLongMessage"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSupElect"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVSupElect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="What is the system used for the primary supply of O2?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkFactory"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Factory ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLiqTank"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="O2 Liquid Tank">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkManifold"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Manifold">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkConc"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Concentrators">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkCylinders"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Cylinders">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkNA"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="N/A">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSupElectPS"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVSupElectPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="What is the system used for the primary supply of O2?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkFactoryPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Factory ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLiqTankPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="O2 Liquid Tank">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkManifoldPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Manifold">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkConcPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Concentrators">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkCylindersPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Cylinders">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkNAPS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="N/A">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILHOS"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="How old is the system?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVHOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="What is the system used for the secondary supply of O2?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkFactorySS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Factory ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLiqTankSS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="O2 Liquid Tank">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkManifoldSS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Manifold">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkConcSS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Concentrators">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkCylindersSS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Cylinders">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkNASS"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="N/A">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILCondSE"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the condition of the equipment?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVCondSE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="What is the system used for the emergency supply of O2?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkFactoryES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Factory ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLiqTankES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="O2 Liquid Tank">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkManifoldES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Manifold">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkConcES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Concentrators">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkCylindersES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Cylinders">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkNAES"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="N/A">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILComSE"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="General comment of the oxygen system"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtComentMGS"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_backMGS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_saveMGS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.FormInterviewID">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTVLInterV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="INTERVIEW ID FORM"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILFistNaUs"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="First name and Surname"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idFisrtUsar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILOrg"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Organization"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idOrga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILDate"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_date_inter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILTypeOfInter"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVInterType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="INTERVIEW TYPE"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkOnSet"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="On Set">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkByPhone"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="By Phone">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkByEmail"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="By Email">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILOther"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Other"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/idTVLSecoInt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="30dp"
+            android:text="SECONDARY INTERVIEW"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILIntervOther"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name, Email, Phone number and position"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idIntervThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILIntervOtherThree"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name, Email, Phone number and position"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idIntervTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

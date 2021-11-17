@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.FormGeneratorOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTVLInterV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="GENERATOR(1/4)"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILGHFac"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Is there a generator in the health facility?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVGHFac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is there a generator in the health facility?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkYes"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="0dp"
+                android:text="Yes">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkNo"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/IdChkDontKnow"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Don’t know">
+            </CheckBox>
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSupElect"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Date of Interview"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVSupElect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="If so, which of the following areas does it supply electricity to?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkWhoHosp"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="The whole hospital ">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkOpTheatre"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Operating theatre">
+            </CheckBox>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkEmergRoom"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Emergency Room">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLab"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Laboratory">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILOther"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Other"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILHOS"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="How old is the system?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVHOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="How old is the system?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkLess"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Less than 3 years">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkB3_10"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Between 3-10 years">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkB11_20"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Between 11-20 years">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkMore20"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="More than 20 years ">
+            </CheckBox>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TIL"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Is the generator working?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVGHF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is the generator working?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+            <CheckBox
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGENY"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="0dp"
+                android:text="Yes">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGENN"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="No">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGENPartly"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text=" Partly">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGENDontN"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Don’t know">
+            </CheckBox>
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILCEqui"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the condition of the equipment?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVCEqui"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="What is the condition of the equipment?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGIU"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Good and in use">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkGBNU"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Good, but not in use">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkIU_BNR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="In use, but needs repair">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkIUNNTR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="In use, but needs to be replaced">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idchkOOSBR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Out of service, but repairable">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkOOSAndNR"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Out of service and needs to be replaced">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkStilInstPha"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Still in the installation phase">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkDontN"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Don’t know ">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILATS"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Does the generator have an Automatic Transfer Switch (ATS)?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVATS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Does the generator have an Automatic Transfer Switch (ATS)?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idchkDN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Don’t know">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILATSW"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="I.G1. 08	Is the ATS working?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVATSW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is the ATS working?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <CheckBox
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkATSY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkATSN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkATSPartly"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text=" Partly">
+                </CheckBox>
+
+                <CheckBox
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkATDontN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Don’t know">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILFuel"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Is there fuel available today?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVFuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is there fuel available today?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFuelY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFuelN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILCapGen"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the capacity of the generator (#kVA)?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtCapGen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILPrevMain"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Is there an active Preventive Maintenance (PM) program?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVPrevMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is there an active Preventive Maintenance (PM) program?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkPMY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkPMN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILPMCarr"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="PM activities are carried out by:"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVPMCarr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="PM activities are carried out by:"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkPMITPHF"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Internal Technical Personnel of the Health Facility">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkPMPDI"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Personnel from the Department of Infrastructure">
+            </CheckBox>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idChkSubcontracted"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:text="Subcontracted">
+            </CheckBox>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILFreq"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the frequency of PM (every # months)?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtFreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSub"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="In case of subcontracting: what is the name of the maintenance company?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtNameOfMant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILPMCM"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Does the health facility have a logbook for the maintenance of the generator (PM and CM)? "
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVPMCM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Does the health facility have a logbook for the maintenance of the generator (PM and CM)? "
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkPMCMY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkPMCMN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILLogBook"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Is the logbook up to date?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTVLogBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Is the logbook up to date?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLoBY"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLoBN"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILComGen"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Comments on the Generator"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idTxtComent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="14sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

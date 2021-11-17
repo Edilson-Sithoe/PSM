@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programacao/Android/PSM2/app/src/main/res/layout-xlarge/activity_main.xml" value="0.22444581280788178" />
+        <entry key="..\:/Programacao/Android/PSM2/app/src/main/res/layout/activity_form_interview_id.xml" value="0.2348684210526316" />
+        <entry key="..\:/Programacao/Android/PSM2/app/src/main/res/layout/activity_form_login.xml" value="0.1" />
+        <entry key="..\:/Programacao/Android/PSM2/app/src/main/res/layout/activity_main.xml" value="0.2348684210526316" />
+        <entry key="..\:/Programacao/Android/PSM2/app/src/main/res/layout/activity_tela_principal.xml" value="0.11538461538461539" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/background.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/button.xml" value="0.24267100977198697" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/container_components.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/container_user.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/edit_text.xml" value="0.38796296296296295" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/ic_cell.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/progressbar.xml" value="0.24267100977198697" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/drawable/progressbars.xml" value="0.2450657894736842" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-small/activity_form_ups_twoo.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_edit_ident_inter.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_cadastro.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_one.xml" value="0.18125" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_three.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_two.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_ident_int_menu.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_identi_hea_facil.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_identi_inter_v.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_infrastructure.xml" value="0.5" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_interview_id.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_login.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_med_gas_system.xml" value="0.33" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_solar_energy.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_stabilizer.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_upsone.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_main.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_tela_principal.xml" value="0.2752463054187192" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/buttom_dialog.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/identitentview_item.xml" value="0.22998768472906403" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_edit_ident_inter.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_cadastro.xml" value="0.18" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_four.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_one.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_three.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_two.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_ident_int_menu.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_hea_facil.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_hea_facil_next_page.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_hea_facil_next_page_twoo.xml" value="0.18" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_inter_v.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_infrastructure.xml" value="0.18459552495697074" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_interview_id.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_login.xml" value="0.18" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_med_gas_system.xml" value="0.210724043715847" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_secondary_inter_v.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_solar_energy.xml" value="0.210724043715847" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_stabilizer.xml" value="0.25" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_ups_twoo.xml" value="0.210724043715847" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_upsone.xml" value="0.2189207650273224" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_tela_principal.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/buttom_dialog.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/identitentview_item.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/menu/meu_main.xml" value="0.2348684210526316" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
