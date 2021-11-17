@@ -10,14 +10,13 @@ import projecto.jhpiego.psm.model.UpsTwoo;
 
 public class DAOUpsTwoo {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOUpsTwoo(){
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(UpsTwoo.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(UpsTwoo.class.getSimpleName());
     }
 
     public Task<Void> add(UpsTwoo upsTwoo){
-        return databaseReference.push().setValue(upsTwoo);
+        return db.push().setValue(upsTwoo);
     }
 }

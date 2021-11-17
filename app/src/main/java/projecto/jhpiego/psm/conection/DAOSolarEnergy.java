@@ -10,15 +10,15 @@ import projecto.jhpiego.psm.model.UpsOne;
 
 public class DAOSolarEnergy {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOSolarEnergy(){
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(SolarEnergy.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(SolarEnergy.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(SolarEnergy upsOne){
 
-        return databaseReference.push().setValue(upsOne);
+        return db.push().setValue(upsOne);
     }
 }

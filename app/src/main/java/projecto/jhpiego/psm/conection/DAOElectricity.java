@@ -8,14 +8,14 @@ import projecto.jhpiego.psm.model.Electricity;
 
 public class DAOElectricity {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOElectricity () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(Electricity.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(Electricity.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(Electricity electricity){
-        return databaseReference.push().setValue(electricity);
+        return db.push().setValue(electricity);
     }
 }

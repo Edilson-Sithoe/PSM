@@ -6,16 +6,18 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import projecto.jhpiego.psm.model.GeneratorFour;
 import projecto.jhpiego.psm.model.GeneratorThree;
+import projecto.jhpiego.psm.model.InterViewID;
 
 public class DAOGeneratorThree {
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
+
 
     public DAOGeneratorThree () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(GeneratorThree.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(GeneratorThree.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(GeneratorThree generatorThree){
-        return databaseReference.push().setValue(generatorThree);
+        return db.push().setValue(generatorThree);
     }
 }

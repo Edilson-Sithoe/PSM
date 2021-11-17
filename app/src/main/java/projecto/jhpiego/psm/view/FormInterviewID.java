@@ -35,6 +35,7 @@ public class FormInterviewID extends AppCompatActivity {
         IniciarComponentes();
 
         DAOInterviewID dao = new DAOInterviewID();
+      //  FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override

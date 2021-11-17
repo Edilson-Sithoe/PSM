@@ -9,14 +9,14 @@ import projecto.jhpiego.psm.model.MedGasSistema;
 
 public class DAOMedGasSyst {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOMedGasSyst() {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(MedGasSistema.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(MedGasSistema.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(MedGasSistema medGasSistema){
-        return databaseReference.push().setValue(medGasSistema);
+        return db.push().setValue(medGasSistema);
     }
 }

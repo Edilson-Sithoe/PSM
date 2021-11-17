@@ -7,14 +7,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import projecto.jhpiego.psm.model.IdentInterView;
 
 public class DAOIdentifInter {
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOIdentifInter () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(IdentInterView.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(IdentInterView.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(IdentInterView identInterView){
-        return databaseReference.push().setValue(identInterView);
+        return db.push().setValue(identInterView);
     }
 }

@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.database.FirebaseDatabase;
 
 import projecto.jhpiego.psm.R;
 import projecto.jhpiego.psm.conection.DAOIdentifInter;
@@ -33,6 +34,7 @@ public class FormIdentiInterV extends AppCompatActivity {
         IniciarComponentes();
 
         DAOIdentifInter dao = new DAOIdentifInter();
+      //  FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override

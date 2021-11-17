@@ -8,16 +8,18 @@ import projecto.jhpiego.psm.model.IdentInterView;
 import projecto.jhpiego.psm.model.InterViewID;
 
 public class DAOInterviewID {
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOInterviewID() {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-     //   FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-        databaseReference = db.getReference(InterViewID.class.getSimpleName());
+
+        //FirebaseDatabase db = FirebaseDatabase.getInstance();
+        //databaseReference = db.getReference(InterViewID.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(InterViewID.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(InterViewID interview){
-        return databaseReference.push().setValue(interview);
+        return db.push().setValue(interview);
     }
 
 }

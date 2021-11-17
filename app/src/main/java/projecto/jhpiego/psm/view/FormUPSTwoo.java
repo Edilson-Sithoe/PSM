@@ -11,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.database.FirebaseDatabase;
 
 import projecto.jhpiego.psm.R;
 import projecto.jhpiego.psm.conection.DAOUpsOne;
@@ -36,6 +37,7 @@ public class FormUPSTwoo extends AppCompatActivity {
         IniciarComponentes();
 
         DAOUpsTwoo dao = new DAOUpsTwoo();
+     //   FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

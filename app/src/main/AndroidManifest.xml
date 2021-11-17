@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PSM">
         <activity
+            android:name=".view.FormFreePrevFFS"
+            android:exported="false" />
+        <activity
             android:name=".view.FormMedGasSystem"
             android:exported="false" />
         <activity

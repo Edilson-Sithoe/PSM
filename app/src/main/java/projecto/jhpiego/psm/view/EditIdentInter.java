@@ -54,6 +54,7 @@ public class EditIdentInter extends AppCompatActivity {
         }
 
         firebaseDatabase = FirebaseDatabase.getInstance();
+   //     FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         databaseReference = firebaseDatabase.getReference("InterView").child(identiInterID);
 
         btnUpdate.setOnClickListener(new View.OnClickListener() {

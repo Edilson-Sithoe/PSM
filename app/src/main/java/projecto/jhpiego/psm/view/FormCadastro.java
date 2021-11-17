@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
+import com.google.firebase.database.FirebaseDatabase;
 
 import projecto.jhpiego.psm.R;
 
@@ -42,6 +43,7 @@ public class FormCadastro extends AppCompatActivity {
         IniciarCompontes();
 
         mAuth = FirebaseAuth.getInstance();
+    //    FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override

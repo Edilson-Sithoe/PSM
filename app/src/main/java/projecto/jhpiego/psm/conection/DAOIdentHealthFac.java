@@ -7,14 +7,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import projecto.jhpiego.psm.model.IdentiHeathFac;
 
 public class DAOIdentHealthFac {
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOIdentHealthFac () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(IdentiHeathFac.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(IdentiHeathFac.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(IdentiHeathFac identiHeathFac){
-        return databaseReference.push().setValue(identiHeathFac);
+        return db.push().setValue(identiHeathFac);
     }
 }

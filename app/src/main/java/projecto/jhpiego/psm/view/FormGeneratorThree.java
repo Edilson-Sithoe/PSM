@@ -11,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.database.FirebaseDatabase;
 
 import projecto.jhpiego.psm.R;
 import projecto.jhpiego.psm.conection.DAOGeneratorThree;
@@ -35,6 +36,7 @@ public class FormGeneratorThree extends AppCompatActivity {
         IniciarComponentes();
 
         DAOGeneratorThree dao = new DAOGeneratorThree();
+     //   FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

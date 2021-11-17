@@ -7,14 +7,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import projecto.jhpiego.psm.model.GeneratorTwoo;
 
 public class DAOGeneratorTwoo {
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOGeneratorTwoo () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(GeneratorTwoo.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(GeneratorTwoo.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(GeneratorTwoo generatorTwoo){
-        return databaseReference.push().setValue(generatorTwoo);
+        return db.push().setValue(generatorTwoo);
     }
 }

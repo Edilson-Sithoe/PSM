@@ -9,14 +9,14 @@ import projecto.jhpiego.psm.model.UpsOne;
 
 public class DAOUpsOne {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOUpsOne (){
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(UpsOne.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(UpsOne.class.getSimpleName());
+        db.keepSynced(true);
     }
 
     public Task<Void> add(UpsOne upsOne){
-        return databaseReference.push().setValue(upsOne);
+        return db.push().setValue(upsOne);
     }
 }

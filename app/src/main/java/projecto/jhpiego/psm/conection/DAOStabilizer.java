@@ -8,14 +8,14 @@ import projecto.jhpiego.psm.model.Stabilizer;
 
 public class DAOStabilizer {
 
-    private DatabaseReference databaseReference;
+    private DatabaseReference db;
 
     public DAOStabilizer () {
-        FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(Stabilizer.class.getSimpleName());
+        db = FirebaseDatabase.getInstance().getReference(Stabilizer.class.getSimpleName());
+        db.keepSynced(true);
 }
 
     public Task<Void> add(Stabilizer stabilizer){
-        return databaseReference.push().setValue(stabilizer);
+        return db.push().setValue(stabilizer);
     }
 }

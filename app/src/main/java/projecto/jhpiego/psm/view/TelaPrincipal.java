@@ -14,7 +14,7 @@ import projecto.jhpiego.psm.R;
 public class TelaPrincipal extends AppCompatActivity {
 
     private Button btn_interview, btnLogout, btn_identInter, btn_identiHFa, btn_electricity, btn_generatorOne, btn_generatorTwoo;
-    private Button btn_generatorThree, btn_generatorFour, btn_stabilizer, btn_upsOne, btn_upsTwoo, btn_solarEnerg, btn_medGasSystem;
+    private Button btn_generatorThree, btn_generatorFour, btn_stabilizer, btn_upsOne, btn_upsTwoo, btn_solarEnerg, btn_medGasSystem, btn_FPAFFS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,6 +128,14 @@ public class TelaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_FPAFFS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent freePrev = new Intent(TelaPrincipal.this, FormFreePrevFFS.class);
+                startActivity(freePrev);
+            }
+        });
+
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -156,5 +164,6 @@ public class TelaPrincipal extends AppCompatActivity {
         btn_upsTwoo = findViewById(R.id.idBtn_upsTwoo);
         btn_solarEnerg = findViewById(R.id.idBtn_solarEnergy);
         btn_medGasSystem = findViewById(R.id.idBtn_medicalSystem);
+        btn_FPAFFS = findViewById(R.id.idBtn_FPAFFS);
     }
 }
