@@ -13,8 +13,12 @@ import projecto.jhpiego.psm.R;
 
 public class TelaPrincipal extends AppCompatActivity {
 
-    private Button btn_interview, btnLogout, btn_identInter, btn_identiHFa, btn_electricity, btn_generatorOne, btn_generatorTwoo;
-    private Button btn_generatorThree, btn_generatorFour, btn_stabilizer, btn_upsOne, btn_upsTwoo, btn_solarEnerg, btn_medGasSystem, btn_FPAFFS;
+    private Button btn_interview, btnLogout, btn_identInter, btn_identiHFa;
+    private Button btn_electricity, btn_generatorOne, btn_generatorTwoo;
+    private Button btn_generatorThree, btn_generatorFour, btn_stabilizer;
+    private Button btn_upsOne, btn_upsTwoo, btn_solarEnerg, btn_medGasSystem;
+    private Button btn_FPAFFS, btn_cylinder,btn_conc, btn_maniF,btn_maniFTwoo;
+    private Button btn_maniFoldEmerg,btn_liquidOX, btn_liquidOXT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,6 +140,62 @@ public class TelaPrincipal extends AppCompatActivity {
             }
         });
 
+        btn_cylinder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cwm = new Intent(TelaPrincipal.this, FormCylinders_UWM.class);
+                startActivity(cwm);
+            }
+        });
+
+        btn_conc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent conc = new Intent(TelaPrincipal.this, FormConcentrators.class);
+                startActivity(conc);
+            }
+        });
+
+        btn_maniF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent manif = new Intent(TelaPrincipal.this, FormManiFold.class);
+                startActivity(manif);
+            }
+        });
+
+        btn_maniFTwoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent manift = new Intent(TelaPrincipal.this, FormManiFoldTwoo.class);
+                startActivity(manift);
+            }
+        });
+
+        btn_maniFoldEmerg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent manift = new Intent(TelaPrincipal.this, FormMFEmerg.class);
+                startActivity(manift);
+            }
+        });
+
+        btn_liquidOX.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent liquidOx = new Intent(TelaPrincipal.this, FormLiquidOx.class);
+                startActivity(liquidOx);
+            }
+        });
+
+        btn_liquidOXT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent liquidOxT = new Intent(TelaPrincipal.this, FormLiquidOxTwoo.class);
+                startActivity(liquidOxT);
+            }
+        });
+
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -165,5 +225,12 @@ public class TelaPrincipal extends AppCompatActivity {
         btn_solarEnerg = findViewById(R.id.idBtn_solarEnergy);
         btn_medGasSystem = findViewById(R.id.idBtn_medicalSystem);
         btn_FPAFFS = findViewById(R.id.idBtn_FPAFFS);
+        btn_cylinder = findViewById(R.id.idBtn_CWM);
+        btn_conc = findViewById(R.id.idBtn_CONC);
+        btn_maniF = findViewById(R.id.idBtn_MFOne);
+        btn_maniFTwoo = findViewById(R.id.idBtn_MFTwoo);
+        btn_maniFoldEmerg = findViewById(R.id.idBtn_EM);
+        btn_liquidOX = findViewById(R.id.idBtn_LOTOne);
+        btn_liquidOXT = findViewById(R.id.idBtn_LOTTwo);
     }
 }

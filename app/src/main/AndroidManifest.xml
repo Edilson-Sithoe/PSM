@@ -18,6 +18,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PSM">
         <activity
+            android:name=".view.FormOxFactorySPA"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormLiquidOxTwoo"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormLiquidOx"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormMFEmerg"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormManiFoldTwoo"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormManiFold"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormConcentrators"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormCylinders_UWM"
+            android:exported="false" />
+        <activity
             android:name=".view.FormFreePrevFFS"
             android:exported="false" />
         <activity

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PSM</string>
+    <string name="app_name">ETT</string>
     <string name="logar">Aceder á minha conta</string>
     <string name="text_recuperar">Esqueci a minha senha</string>
     <string name="text_cadastro">Criar uma conta</string>

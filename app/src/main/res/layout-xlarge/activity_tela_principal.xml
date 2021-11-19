@@ -230,6 +230,16 @@
                     android:padding="10dp"
                     android:text="FIRE PREVENTION AND FIRE FIGHTING SYSTEM"
                     android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_CWM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="CYLINDERS\n"
+                    android:textAllCaps="false" />
             </LinearLayout>
 
             <LinearLayout
@@ -240,10 +250,203 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
-                android:weightSum="2">
+                android:weightSum="3">
 
+                <Button
+                    android:id="@+id/idBtn_CONC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="CONCENTRATORS\n"
+                    android:textAllCaps="false" />
 
+                <Button
+                    android:id="@+id/idBtn_MFOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MANIFOLD (1/2)\n"
+                    android:textAllCaps="false" />
 
+                <Button
+                    android:id="@+id/idBtn_MFTwoo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MANIFOLD (2/2)\n"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/idBtn_EM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="EMERGENCY MANIFOLD\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_LOTOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="LIQUID OXYGEN TANK (LOX - VIE)(1/2)"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_LOTTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="LIQUID OXYGEN TANK (LOX - VIE)(2/2)"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/idBtn_PSA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="O2 FACTORY (PSA) \n "
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_SVS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="SUCTION/VACUUM SYSTEM\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_MAS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MEDICAL AIR SYSTEM (MA) (4ATM)"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/idBtn_MPP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MAIN PIPING (Oxygen)\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_LOG"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="O2 LOGISTICS\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_MME"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MAINTENANCE - MEDICAL EQUIPMENT"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/idBtn_SUP_UN"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="SUPERVISORY UNIT\n"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/idBtn_TPI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="TRAINING PROGRAM IN O2"
+                    android:textAllCaps="false" />
 
             </LinearLayout>
 
