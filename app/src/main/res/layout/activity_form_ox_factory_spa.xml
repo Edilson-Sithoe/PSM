@@ -1618,6 +1618,338 @@
             </CheckBox>
         </com.google.android.material.textfield.TextInputLayout>
 
+        <TextView
+            android:id="@+id/idTVSubMan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="In case of subcontracting: what is the name of the maintenance company?"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILtxtSubMan"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="In case of subcontracting: what is the name of the maintenance company?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtCaseSNMaintOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/idTVPMYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="What is the average cost of factory PM per year?"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILPMYear"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the average cost of factory PM per year?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtAVGOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/idTVPMMP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="What is the budget (# Metical) of the Maintenance program?"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILPMMP"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="What is the budget (# Metical) of the Maintenance program?"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtTecnAvailOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILSIT"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Does the health facility have a specialized internal technical team 24 hours a day, 7 days a week?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTSIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Does the health facility have a specialized internal technical team 24 hours a day, 7 days a week?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkYesHFSpecOX"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkNoHFSpecOX"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/idTVTAA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="How many technicians are available on site? (Total number)"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILTAA"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="How many technicians are available on site? (Total number)"
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtBudgetOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILShortaOX"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Has the health facility had any shortage of O2 in the last two (2) years because of the Factory?"
+            style="@style/Edit_Text"
+            android:padding="0dp"
+            android:textColorHint="@color/cinza"
+            app:hintTextColor="@color/cinza">
+
+            <TextView
+                android:id="@+id/idTShortaOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="10dp"
+                android:text="Has the health facility had any shortage of O2 in the last two (2) years because of the Factory?"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkYEShorOX"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkNoShorOX"
+                    android:inputType="text"
+                    android:textColor="@color/Blue"
+                    android:textColorHint="@color/Blue"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+            </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TILCommentOX"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Comments on the Factory System "
+            style="@style/Edit_Text"
+            android:padding="15dp"
+            android:textColorHint="@color/Blue"
+            app:hintTextColor="@color/cinza">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtCommentOX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Blue"
+                android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_backFSPA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Back"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_saveFSPA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+
     </LinearLayout>
 
 </ScrollView>

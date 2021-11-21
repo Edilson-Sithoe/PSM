@@ -14,10 +14,10 @@ public class Concentrators {
     private String chkPDICO; // personal dept infra
     private String chkSubCCO;
 
-    private String txtFPMCO; //	What is the frequency of PM (every # months)?
-    private String txtMCCO; //	In case of subcontracting: what is the name of the maintenance company?
-    private String txtCPMCONCO;//	What is the average cost of PM for Concentrators per year?
-    private String txtMPCO;//	What is the budget for the Maintenance program?
+    private String txtFPMCO; //What is the frequency of PM (every # months)?
+    private String txtMCCO; //In case of subcontracting: what is the name of the maintenance company?
+    private String txtCPMCONCO;//What is the average cost of PM for Concentrators per year?
+    private String txtMPCO;//What is the budget for the Maintenance program?
 
     private String chkYesPMCMCO;
     private String chkNoPMCMCO;

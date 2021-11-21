@@ -18,6 +18,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PSM">
         <activity
+            android:name=".view.FormMedGasOutlets"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormOxFactory"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormDocTrainLiqOxTank"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormTrainDocManif"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormDocTrainConc"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormDocTrain"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormTeam"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormSupervisory"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormInventory"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormLogistic"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormMainPiping"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormMedAirSystem"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormVaccumSystem"
+            android:exported="false" />
+        <activity
             android:name=".view.FormOxFactorySPA"
             android:exported="false" />
         <activity

@@ -14,6 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import projecto.jhpiego.psm.R;
 import projecto.jhpiego.psm.conection.DAOOxFactory;
+import projecto.jhpiego.psm.conection.DAOxFactorySPA;
 import projecto.jhpiego.psm.model.LiquiOxTankTwoo;
 import projecto.jhpiego.psm.model.OxFactorySPA;
 
@@ -38,7 +39,7 @@ public class FormOxFactorySPA extends AppCompatActivity {
         getSupportActionBar().hide();
         InitComponents();
 
-        DAOOxFactory dao = new DAOOxFactory();
+        DAOxFactorySPA dao = new DAOxFactorySPA();
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,7 +144,7 @@ public class FormOxFactorySPA extends AppCompatActivity {
                         chkYesHFSpecOX.isChecked() ? "Yes" : "",
                         chkNoHFSpecOX.isChecked() ? "No" : "",
 
-                        txtBudgetOX.getText().toString(),
+                        txtTecnAvailOX.getText().toString(),
 
                         chkYEShorOX.isChecked() ? "Yes" : "",
                         chkNoShorOX.isChecked() ? "No" : "",
@@ -153,7 +154,7 @@ public class FormOxFactorySPA extends AppCompatActivity {
                 if (txtCapaFactOX.getText().toString().isEmpty() ||txtDiametreOX.getText().toString().isEmpty() ||txtTotalProdOX.getText().toString().isEmpty()||
                         txtCapFSOX.getText().toString().isEmpty() || txtCAPOXTankOX.getText().toString().isEmpty() || txtOtherOX.getText().toString().isEmpty()||
                         txtFreqPMOX.getText().toString().isEmpty() || txtCaseSNMaintOX.getText().toString().isEmpty() || txtAVGOX.getText().toString().isEmpty() ||
-                        txtBudgetOX.getText().toString().isEmpty() || txtBudgetOX.getText().toString().isEmpty()){
+                        txtBudgetOX.getText().toString().isEmpty() || txtTecnAvailOX.getText().toString().isEmpty()){
                     Snackbar snackbar = Snackbar.make(v, mensagens[0], Snackbar.LENGTH_SHORT);
                     snackbar.setBackgroundTint(Color.BLUE);
                     snackbar.setTextColor(Color.WHITE);
@@ -177,106 +178,106 @@ public class FormOxFactorySPA extends AppCompatActivity {
 
     }
     public void InitComponents(){
-        btnSave = findViewById(R.id.btn_saveLOX);
-        btnBack = findViewById(R.id.btn_backLOX);
+        btnSave = findViewById(R.id.btn_saveFSPA);
+        btnBack = findViewById(R.id.btn_backFSPA);
 
-        chkYesOX = findViewById(R.id.txtBudgetLOX);
-                chkNoOX = findViewById(R.id.txtBudgetLOX);
+        chkYesOX = findViewById(R.id.chkYesOX);
+                chkNoOX = findViewById(R.id.chkNoOX);
 
-                chkLessOX = findViewById(R.id.txtBudgetLOX);
-                chkB3_10OX = findViewById(R.id.txtBudgetLOX);
-                chkB11_20OX = findViewById(R.id.txtBudgetLOX);
-                chkMore20OX = findViewById(R.id.txtBudgetLOX);
+                chkLessOX = findViewById(R.id.chkLessOX);
+                chkB3_10OX = findViewById(R.id.chkB3_10OX);
+                chkB11_20OX = findViewById(R.id.chkB11_20OX);
+                chkMore20OX = findViewById(R.id.chkMore20OX);
 
-                txtCapaFactOX = findViewById(R.id.txtBudgetLOX);
-                txtDiametreOX = findViewById(R.id.txtBudgetLOX);
-                txtTotalProdOX = findViewById(R.id.txtBudgetLOX);
+                txtCapaFactOX = findViewById(R.id.txtCapaFactOX);
+                txtDiametreOX = findViewById(R.id.txtDiametreOX);
+                txtTotalProdOX = findViewById(R.id.txtTotalProdOX);
 
-                chkYOX = findViewById(R.id.txtBudgetLOX);
-                chkNOX = findViewById(R.id.txtBudgetLOX);
-                chkPartlyOX = findViewById(R.id.txtBudgetLOX);
-                chkDontNOX = findViewById(R.id.txtBudgetLOX);
+                chkYOX = findViewById(R.id.chkYOX);
+                chkNOX = findViewById(R.id.chkNOX);
+                chkPartlyOX = findViewById(R.id.chkPartlyOX);
+                chkDontNOX = findViewById(R.id.chkDontNOX);
 
-                chkGIUOX = findViewById(R.id.txtBudgetLOX);
-                chkGBNUOX = findViewById(R.id.txtBudgetLOX);
-                chkIU_BNROX = findViewById(R.id.txtBudgetLOX);
-                chkIUNNTROX = findViewById(R.id.txtBudgetLOX);
-                chkOOSBROX = findViewById(R.id.txtBudgetLOX);
-                chkOOSAndNROX = findViewById(R.id.txtBudgetLOX);
-                chkStilInstPhaOX = findViewById(R.id.txtBudgetLOX);
-                chkDontKnowOX = findViewById(R.id.txtBudgetLOX);
+                chkGIUOX = findViewById(R.id.chkGIUOX);
+                chkGBNUOX = findViewById(R.id.chkGBNUOX);
+                chkIU_BNROX = findViewById(R.id.chkIU_BNROX);
+                chkIUNNTROX = findViewById(R.id.chkIUNNTROX);
+                chkOOSBROX = findViewById(R.id.chkOOSBROX);
+                chkOOSAndNROX = findViewById(R.id.chkOOSAndNROX);
+                chkStilInstPhaOX = findViewById(R.id.chkStilInstPhaOX);
+                chkDontKnowOX = findViewById(R.id.chkDontKnowOX);
 
-                chkYESTranOX = findViewById(R.id.txtBudgetLOX);
-                chkNOTranOX = findViewById(R.id.txtBudgetLOX);
-                chkYesBIDWTranOX = findViewById(R.id.txtBudgetLOX);
+                chkYESTranOX = findViewById(R.id.chkYESTranOX);
+                chkNOTranOX = findViewById(R.id.chkNOTranOX);
+                chkYesBIDWTranOX = findViewById(R.id.chkYesBIDWTranOX);
 
-                chkYESGENOX = findViewById(R.id.txtBudgetLOX);
-                chkNOGENOX = findViewById(R.id.txtBudgetLOX);
-                chkYesBIDWGENOX = findViewById(R.id.txtBudgetLOX);
+                chkYESGENOX = findViewById(R.id.chkYESGENOX);
+                chkNOGENOX = findViewById(R.id.chkNOGENOX);
+                chkYesBIDWGENOX = findViewById(R.id.chkYesBIDWGENOX);
 
-                chkYESUPSOX = findViewById(R.id.txtBudgetLOX);
-                chkNOUPSOX = findViewById(R.id.txtBudgetLOX);
-                chkYesBIDWUPSOX = findViewById(R.id.txtBudgetLOX);
+                chkYESUPSOX = findViewById(R.id.chkYESUPSOX);
+                chkNOUPSOX = findViewById(R.id.chkNOUPSOX);
+                chkYesBIDWUPSOX = findViewById(R.id.chkYesBIDWUPSOX);
 
-                chkYESSTABOX = findViewById(R.id.txtBudgetLOX);
-                chkNOSTABOX = findViewById(R.id.txtBudgetLOX);
-                chkYesBIDWSTABOX = findViewById(R.id.txtBudgetLOX);
+                chkYESSTABOX = findViewById(R.id.chkYESSTABOX);
+                chkNOSTABOX = findViewById(R.id.chkNOSTABOX);
+                chkYesBIDWSTABOX = findViewById(R.id.chkYesBIDWSTABOX);
 
-                chkYESMCOX = findViewById(R.id.txtBudgetLOX);
-                chkNOMCOX = findViewById(R.id.txtBudgetLOX);
-                chkYesBIDWMCOX = findViewById(R.id.txtBudgetLOX);
+                chkYESMCOX = findViewById(R.id.chkYESMCOX);
+                chkNOMCOX = findViewById(R.id.chkNOMCOX);
+                chkYesBIDWMCOX = findViewById(R.id.chkYesBIDWMCOX);
 
-                txtCapFSOX = findViewById(R.id.txtBudgetLOX);
-                txtCAPOXTankOX = findViewById(R.id.txtBudgetLOX);
+                txtCapFSOX = findViewById(R.id.txtCapFSOX);
+                txtCAPOXTankOX = findViewById(R.id.txtCAPOXTankOX);
 
-                chkEOX = findViewById(R.id.txtBudgetLOX);
-                chkFOX = findViewById(R.id.txtBudgetLOX);
-                chkGOX = findViewById(R.id.txtBudgetLOX);
-                chkJOX = findViewById(R.id.txtBudgetLOX);
-                chkDontNoOX = findViewById(R.id.txtBudgetLOX);
-                txtOtherOX = findViewById(R.id.txtBudgetLOX);
+                chkEOX = findViewById(R.id.chkEOX);
+                chkFOX = findViewById(R.id.chkFOX);
+                chkGOX = findViewById(R.id.chkGOX);
+                chkJOX = findViewById(R.id.chkJOX);
+                chkDontNoOX = findViewById(R.id.chkDontNoOX);
+                txtOtherOX = findViewById(R.id.txtOtherOX);
 
-                chkSWYOX = findViewById(R.id.txtBudgetLOX);
-                chkSWNOX = findViewById(R.id.txtBudgetLOX);
-                chkSWPartlyOX = findViewById(R.id.txtBudgetLOX);
-                chkSWDontNOX = findViewById(R.id.txtBudgetLOX);
+                chkSWYOX = findViewById(R.id.chkSWYOX);
+                chkSWNOX = findViewById(R.id.chkSWNOX);
+                chkSWPartlyOX = findViewById(R.id.chkSWPartlyOX);
+                chkSWDontNOX = findViewById(R.id.chkSWDontNOX);
 
-                chkYesCHOX = findViewById(R.id.txtBudgetLOX);
-                chkNoCHOX = findViewById(R.id.txtBudgetLOX);
+                chkYesCHOX = findViewById(R.id.chkYesCHOX);
+                chkNoCHOX = findViewById(R.id.chkNoCHOX);
 
-                txtOne = findViewById(R.id.txtBudgetLOX);
-                txtTwo = findViewById(R.id.txtBudgetLOX);
-                txtThree = findViewById(R.id.txtBudgetLOX);
-                txtFour = findViewById(R.id.txtBudgetLOX);
-                txtFive = findViewById(R.id.txtBudgetLOX);
-                txtSix = findViewById(R.id.txtBudgetLOX);
-                txtSeven = findViewById(R.id.txtBudgetLOX);
-                txtEight = findViewById(R.id.txtBudgetLOX);
-                txtNine = findViewById(R.id.txtBudgetLOX);
-                txtTen = findViewById(R.id.txtBudgetLOX);
+                txtOne = findViewById(R.id.txtOne);
+                txtTwo = findViewById(R.id.txtTwo);
+                txtThree = findViewById(R.id.txtThree);
+                txtFour = findViewById(R.id.txtFour);
+                txtFive = findViewById(R.id.txtFive);
+                txtSix = findViewById(R.id.txtSix);
+                txtSeven = findViewById(R.id.txtSeven);
+                txtEight = findViewById(R.id.txtEight);
+                txtNine = findViewById(R.id.txtNine);
+                txtTen = findViewById(R.id.txtTen);
 
-                chkYesPMOX = findViewById(R.id.txtBudgetLOX);
-                chkNoPMOX = findViewById(R.id.txtBudgetLOX);
+                chkYesPMOX = findViewById(R.id.chkYesPMOX);
+                chkNoPMOX = findViewById(R.id.chkNoPMOX);
 
-                txtFreqPMOX = findViewById(R.id.txtBudgetLOX);
+                txtFreqPMOX = findViewById(R.id.txtFreqPMOX);
 
-                chkPHFOX = findViewById(R.id.txtBudgetLOX);
-                chkPDIOX = findViewById(R.id.txtBudgetLOX);
-                chkSubOX = findViewById(R.id.txtBudgetLOX);
+                chkPHFOX = findViewById(R.id.chkPHFOX);
+                chkPDIOX = findViewById(R.id.chkPDIOX);
+                chkSubOX = findViewById(R.id.chkSubOX);
 
-                txtCaseSNMaintOX = findViewById(R.id.txtBudgetLOX);
-                txtAVGOX = findViewById(R.id.txtBudgetLOX);
-                txtBudgetOX = findViewById(R.id.txtBudgetLOX);
+                txtCaseSNMaintOX = findViewById(R.id.txtCaseSNMaintOX);
+                txtAVGOX = findViewById(R.id.txtAVGOX);
+                txtBudgetOX = findViewById(R.id.txtBudgetOX);
 
-                chkYesHFSpecOX = findViewById(R.id.txtBudgetLOX);
-                chkNoHFSpecOX = findViewById(R.id.txtBudgetLOX);
+                chkYesHFSpecOX = findViewById(R.id.chkYesHFSpecOX);
+                chkNoHFSpecOX = findViewById(R.id.chkNoHFSpecOX);
 
-                txtBudgetOX = findViewById(R.id.txtBudgetLOX);
+        txtTecnAvailOX = findViewById(R.id.txtTecnAvailOX);
 
-                chkYEShorOX = findViewById(R.id.txtBudgetLOX);
-                chkNoShorOX = findViewById(R.id.txtBudgetLOX);
+                chkYEShorOX = findViewById(R.id.chkYEShorOX);
+                chkNoShorOX = findViewById(R.id.chkNoShorOX);
 
-                txtCommentOX = findViewById(R.id.txtBudgetLOX);
+                txtCommentOX = findViewById(R.id.txtCommentOX);
     }
 
     public void LimparCampos(){
@@ -300,6 +301,7 @@ public class FormOxFactorySPA extends AppCompatActivity {
         txtCaseSNMaintOX.setText("");
         txtAVGOX.setText("");
         txtBudgetOX.setText("");
+        txtTecnAvailOX.setText("");
         txtCommentOX.setText("");
     }
 

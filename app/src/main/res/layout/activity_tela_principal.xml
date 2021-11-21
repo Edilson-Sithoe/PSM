@@ -9,6 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,54 +20,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/btn_register"
-                android:layout_marginTop="30dp"
-                android:text="Menu"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="20dp"
+                android:text="Menu"
                 android:textAllCaps="false"
                 android:textColor="@color/Blue"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
-
-                 <LinearLayout
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:layout_marginStart="10dp"
-                     android:layout_marginEnd="10dp"
-                     android:layout_marginTop="20dp"
-                     android:layout_marginBottom="20dp"
-                     android:orientation="horizontal"
-                     android:weightSum="2">
-
-                     <Button
-                         android:id="@+id/btn_interviewID"
-                         android:layout_width="0dp"
-                         android:layout_height="wrap_content"
-                         android:layout_margin="8dp"
-                         android:layout_weight="1"
-                         android:padding="10dp"
-                         android:text="Interview \nID"
-                         android:textAllCaps="false" />
-
-                     <Button
-                         android:id="@+id/idBtn_identOfInter"
-                         android:layout_width="0dp"
-                         android:layout_height="wrap_content"
-                         android:layout_margin="8dp"
-                         android:layout_weight="1"
-                         android:padding="10dp"
-                         android:text="Identification of the interviewe"
-                         android:textAllCaps="false" />
-                 </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_interviewID"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Interview \nID"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_identOfInter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Identification of the interviewe"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -96,8 +96,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -112,7 +112,7 @@
                     android:text="GENERATOR (1/4)\n"
                     android:textAllCaps="false" />
 
-               <Button
+                <Button
                     android:id="@+id/idBtn_generatorTwoo"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -127,8 +127,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -158,8 +158,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -189,8 +189,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -220,8 +220,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -253,8 +253,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -284,8 +284,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -315,8 +315,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -346,8 +346,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -377,8 +377,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -408,8 +408,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -439,8 +439,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -470,11 +470,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
-                android:weightSum="1">
+                android:weightSum="2">
 
                 <Button
                     android:id="@+id/idBtn_TPI"
@@ -486,6 +486,143 @@
                     android:text="TRAINING PROGRAM IN O2"
                     android:textAllCaps="false" />
 
+                <Button
+                    android:id="@+id/idBtn_TEAM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="TEAM\n"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/idBtn_SecProg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="\nSECURITY PROGRAM\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_DocTrainCy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="DOCUMENTED TRAINING IN CYLINDERS"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/idBtn_DocTrainConc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="\nDOCUMENTED TRAINING IN CONCENTRATORS"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_DocTrainMani"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="DOCUMENTED TRAINING MANIFOLDS AND OUTLETS"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/idBtn_DocTrainOxTank"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="TRAINING IN LIQUID OXYGEN TANKS"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_OxFact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="O2 FACTORY\n"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/idBtn_MedGasOut"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="MEDICAL GAS OUTLETS"
+                    android:textAllCaps="false" />
+                <!--  <Button
+                    android:id="@+id/idBtn_OxFact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Logout"
+                    android:textAllCaps="false" />-->
+
             </LinearLayout>
 
 
@@ -493,8 +630,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
                 android:weightSum="1">

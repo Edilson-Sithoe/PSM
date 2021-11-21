@@ -34,6 +34,10 @@ public class FormInterviewID extends AppCompatActivity {
         getSupportActionBar().hide();
         IniciarComponentes();
 
+       // SimpleMaskFormater smf = new SimpleMaskFormater("DD/MM/AAAA");
+       // MaskTextWatcher mtw = new MaskTextWatcher(dates, smf);
+      //  dates.addTextChangedListener(mtw);
+
         DAOInterviewID dao = new DAOInterviewID();
       //  FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
@@ -87,6 +91,10 @@ public class FormInterviewID extends AppCompatActivity {
         fullName = findViewById(R.id.idFisrtUsar);
         organization = findViewById(R.id.idOrga);
         dates = findViewById(R.id.id_date_inter);
+     //   dates.addTextChangedListener(Mask.insert("##/##/####", dates));
+     //   NascimentoUsu = (EditText)findViewById(R.id.edtdata_usu);
+      //  NascimentoUsu.addTextChangedListener(Mask.insert("##/##/####", NascimentoUsu));
+
         /****************************************************/
         chkSet = findViewById(R.id.chkOnSet);
         chkPhone = findViewById(R.id.chkByPhone);

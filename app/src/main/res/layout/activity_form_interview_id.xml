@@ -87,6 +87,9 @@
             android:textColorHint="@color/Blue"
             app:hintTextColor="@color/cinza">
 
+
+
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/id_date_inter"
                 android:layout_width="match_parent"

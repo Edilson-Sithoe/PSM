@@ -42,12 +42,12 @@ public class IdentInterViewAdapter extends RecyclerView.Adapter<IdentInterViewAd
         holder.identIntViewTV.setText(identInterView.getNome());
         setAnimation(holder.itemView,position);
 
-      /*  holder.itemView.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // identIntViewClickInterface.onIdentIntViewClick(holder.getAdapterPosition());
+                identIntViewClickInterface.onIdentIntViewClick(holder.getAdapterPosition());
             }
-        });*/
+        });
     }
 
     public void setAnimation(View itemView, int position){

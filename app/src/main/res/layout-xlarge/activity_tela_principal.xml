@@ -426,6 +426,26 @@
                     android:padding="10dp"
                     android:text="SUPERVISORY UNIT\n"
                     android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_TPI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="TRAINING PROGRAM IN O2\n"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/idBtn_TEAM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="TEAM\n"
+                    android:textAllCaps="false" />
             </LinearLayout>
 
             <LinearLayout
@@ -436,19 +456,110 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal"
-                android:weightSum="1">
-
-                <Button
-                    android:id="@+id/idBtn_TPI"
+                android:weightSum="3">
+                <!--<Button
+                    android:id="@+id/idBtn_SecProg"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:text="TRAINING PROGRAM IN O2"
+                    android:text="SECURITY PROGRAM\n"
+                    android:textAllCaps="false" />-->
+
+                <Button
+                    android:id="@+id/idBtn_DocTrainCy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="DOCUMENTED TRAINING IN CYLINDERS"
                     android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/idBtn_DocTrainConc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="DOCUMENTED TRAINING IN CONCENTRATORS"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/idBtn_DocTrainMani"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="DOCUMENTED TRAINING MANIFOLDS AND OUTLETS"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <Button
+                android:id="@+id/idBtn_DocTrainOxTank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="TRAINING IN LIQUID OXYGEN TANKS"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/idBtn_OxFact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="O2 FACTORY\n"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/idBtn_MedGasOut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="MEDICAL GAS OUTLETS\n"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <!--  <Button
+                    android:id="@+id/idBtn_OxFact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:text="Logout"
+                    android:textAllCaps="false" />-->
 
             </LinearLayout>
+
+
 
 
             <LinearLayout
