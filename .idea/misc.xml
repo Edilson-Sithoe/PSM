@@ -22,9 +22,11 @@
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_cadastro.xml" value="0.22998768472906403" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_cylinders_uwm.xml" value="0.22967980295566504" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_free_prev_ffs.xml" value="0.22967980295566504" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_four.xml" value="0.167578125" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_one.xml" value="0.18125" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_three.xml" value="0.18996305418719212" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_generator_two.xml" value="0.18996305418719212" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_health_facility.xml" value="0.27890625" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_ident_int_menu.xml" value="0.22998768472906403" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_identi_hea_facil.xml" value="0.22998768472906403" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout-xlarge/activity_form_identi_inter_v.xml" value="0.22998768472906403" />
@@ -51,6 +53,8 @@
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_one.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_three.xml" value="0.23223684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_generator_two.xml" value="0.23223684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_health_facility.xml" value="0.21994535519125682" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_health_facility_view.xml" value="0.2148224043715847" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_ident_int_menu.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_hea_facil.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_identi_hea_facil_next_page.xml" value="0.2348684210526316" />
@@ -61,7 +65,7 @@
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_inventory.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_liquid_ox.xml" value="0.2194222495390289" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_liquid_ox_twoo.xml" value="0.2348684210526316" />
-        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_login.xml" value="0.18" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_login.xml" value="0.22" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_logistic.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_main_piping.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_form_mani_fold.xml" value="0.1985539488320356" />
@@ -85,6 +89,7 @@
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/activity_tela_principal.xml" value="0.18085106382978725" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/buttom_dialog.xml" value="0.2348684210526316" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/identitentview_item.xml" value="0.2348684210526316" />
+        <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/layout/my_row.xml" value="0.25" />
         <entry key="..\:/Users/edils/AndroidStudioProjects/PSM2/app/src/main/res/menu/meu_main.xml" value="0.2348684210526316" />
       </map>
     </option>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background"
     tools:context=".view.FormCadastro">
 
     <TextView
@@ -16,23 +16,23 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:textAllCaps="false"
-        android:textColor="@color/Blue"
+        android:textColor="@color/blue_shade"
         android:textSize="20sp"
         android:textStyle="bold"
         />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TILUSerName"
+        style="@style/Edit_Text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TILUSerName"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
         android:hint="Enter E-mail"
-        style="@style/Edit_Text"
         android:padding="15dp"
-        android:textColorHint="@color/Blue"
-        app:hintTextColor="@color/cinza">
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/idEditUserName"
@@ -40,9 +40,9 @@
             android:layout_height="wrap_content"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:textColor="@color/Blue"
-            android:textColorHint="@color/Blue"
-            android:textSize="14sp"/>
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -56,8 +56,8 @@
         android:hint="Enter Your Password"
         style="@style/Edit_Text"
         android:padding="15dp"
-        android:textColorHint="@color/Blue"
-        app:hintTextColor="@color/cinza">
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/idEditPassword"
@@ -65,25 +65,25 @@
             android:layout_height="wrap_content"
             android:importantForAutofill="no"
             android:inputType="textPassword"
-            android:textColor="@color/Blue"
-            android:textColorHint="@color/Blue"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:textSize="14sp"
             tools:ignore="DuplicateSpeakableTextCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TILConfPassword"
+        style="@style/Edit_Text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/TILPassword"
-        android:id="@+id/TILConfPassword"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:hint="Enter Your Password"
-        style="@style/Edit_Text"
         android:padding="15dp"
-        android:textColorHint="@color/Blue"
-        app:hintTextColor="@color/cinza">
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/blueC">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/idEditConfPassword"
@@ -91,24 +91,25 @@
             android:layout_height="wrap_content"
             android:importantForAutofill="no"
             android:inputType="textPassword"
-            android:textColor="@color/Blue"
-            android:textColorHint="@color/Blue"
-            android:textSize="14sp"/>
+            android:textColor="@color/blueC"
+            android:textColorHint="@color/teal_200"
+            android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="40dp"
         android:layout_below="@+id/TILConfPassword"
-        android:id="@+id/btn_register"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/button"
         android:text="Register"
         android:textAllCaps="false"
-        android:layout_marginBottom="10dp"
-        />
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/idTVLogin"
@@ -120,9 +121,9 @@
         android:text="Already user? Login here"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/Blue"
-        android:textSize="18sp"
-        />
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
 
     <ProgressBar
         android:layout_width="wrap_content"

@@ -20,7 +20,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="18sp"
             android:textStyle="bold"
             />
@@ -35,8 +35,8 @@
             android:hint="Health facility ID:"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idHealtFacID"
@@ -44,8 +44,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,8 +59,8 @@
             android:hint="Name od the health"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idNameHealt"
@@ -68,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,8 +83,8 @@
             android:hint="Location"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idLocation"
@@ -92,8 +92,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -107,8 +107,8 @@
             android:hint="District"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idDistrict"
@@ -116,8 +116,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -131,8 +131,8 @@
             android:hint="Province"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idProvince"
@@ -140,8 +140,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -155,8 +155,8 @@
             android:hint="Region"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idRegion"
@@ -164,8 +164,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -179,8 +179,8 @@
             android:hint="GPS coordinates"
             style="@style/Edit_Text"
             android:padding="10dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idGPS"
@@ -188,8 +188,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -203,8 +203,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVLeHeaFac"
@@ -215,7 +215,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Level of the Health facility"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 />
@@ -225,8 +225,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkFLevel"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="First Level">
@@ -236,8 +236,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkSLevel"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Second Level">
@@ -247,8 +247,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkTLevel"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Third Level">
@@ -259,8 +259,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkLevel"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Fourth Level">
@@ -280,8 +280,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVTypOfHFac"
@@ -292,7 +292,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Type of Health Facility (HF):"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 />
@@ -302,8 +302,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkRuralHealthCenter"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Rural Health Center">
@@ -313,8 +313,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkUrbanoHealthCenter"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Urbano Health Center">
@@ -324,8 +324,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkHealthPost"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Health Post (HF)">
@@ -336,8 +336,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkCentralHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Central Hospital (HF)">
@@ -348,8 +348,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkSpecializedHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Specialized Hospital ">
@@ -360,8 +360,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkMilitaryHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Military Hospital (HF)">
@@ -371,8 +371,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkDistrictHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="District Hospital (HF)">
@@ -382,8 +382,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkGeneralHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="General Hospital (HF)">
@@ -394,8 +394,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkRuralHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Rural Hospital (HF)">
@@ -406,8 +406,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkProvincialHospital"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Provincial Hospital (HF)">
@@ -425,8 +425,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVLJOHeaFac"
@@ -437,7 +437,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Just outpatient health facility?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 />
@@ -447,8 +447,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkYes"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Yes">
@@ -458,8 +458,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkNo"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="No">
@@ -476,7 +476,7 @@
             android:layout_marginStart="20dp"
             android:text="Number of beds of hospitalized patients (#)"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="18sp"
             android:textStyle="bold"
             />
@@ -490,8 +490,8 @@
             android:hint="Total"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTotal"
@@ -499,8 +499,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -514,8 +514,8 @@
             android:hint="Maternity"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idMaternity"
@@ -523,8 +523,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -538,8 +538,8 @@
             android:hint="CICOV"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idCICOV"
@@ -547,8 +547,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -562,8 +562,8 @@
             android:hint="ICU"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idICU"
@@ -571,8 +571,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -586,8 +586,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVTDAIHFac"
@@ -599,7 +599,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Departments available in the health facility"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -609,8 +609,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOutpatientConsultationsr"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Outpatient Consultations">
@@ -620,8 +620,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkCasualtyWard"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Casualty Ward">
@@ -631,8 +631,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkMaternityWard"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Maternity Ward">
@@ -643,8 +643,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkNurseryWard"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Nursery Ward">
@@ -655,8 +655,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkPaediatricWard"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Paediatric Ward">
@@ -667,8 +667,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkGeneralWard"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="General Ward">
@@ -678,8 +678,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkSurgicalward"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Surgical ward">
@@ -689,8 +689,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOperatingTheatre"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Operating Theatre">
@@ -701,8 +701,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkIntensiveCare"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Intensive Care (ICU)">
@@ -713,8 +713,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkRadiology"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Radiology">
@@ -725,8 +725,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOphthalmology"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Ophthalmology">
@@ -737,8 +737,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkCICOV"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="CICOV">
@@ -749,8 +749,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkLaundry"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Laundry">
@@ -761,8 +761,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkKitchen"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Kitchen">
@@ -773,8 +773,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkWasteTreatment"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Waste treatment">
@@ -785,8 +785,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkMorgue"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Morgue">
@@ -797,8 +797,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkPharmacy"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Pharmacy">
@@ -816,8 +816,8 @@
             android:hint="Other"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idOther"
@@ -825,8 +825,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 

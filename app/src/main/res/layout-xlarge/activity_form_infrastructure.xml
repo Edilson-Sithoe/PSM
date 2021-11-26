@@ -20,7 +20,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -35,7 +35,7 @@
             android:layout_marginEnd="25dp"
             android:text="ELECTRICITY"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="18sp"
             android:textStyle="bold"
             />
@@ -50,8 +50,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="What is your main source of power/electricity?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -74,8 +74,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkEDM"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="National Grid (EDM)">
@@ -85,8 +85,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkGenerator"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Generator">
@@ -96,8 +96,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkSolarPanels"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Solar System">
@@ -107,8 +107,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOther"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Other">
@@ -125,8 +125,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -139,7 +139,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="How often do you get power outage?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -149,8 +149,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOutage"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="No outage in the last 6 months">
@@ -160,8 +160,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOutLesHour"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Outage of less than 2 hours in the last month">
@@ -171,8 +171,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkFrquent"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Frequent or prolonged outages of more than 2 hours in the last month">
@@ -182,8 +182,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkWeekly"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Weekly outages ">
@@ -194,8 +194,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkDaily"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Daily outages">
@@ -212,8 +212,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -226,7 +226,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="When was the last power outage?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -236,8 +236,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkBToYes"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Between today and yesterday ">
@@ -247,8 +247,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkThWeek"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="This week">
@@ -258,8 +258,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkThMonth"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="This month ">
@@ -269,8 +269,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkThYear"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="This year">
@@ -288,8 +288,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -302,7 +302,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="What is the duration of the typical power outage?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -312,8 +312,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkLesThanMin"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Less than a minute">
@@ -323,8 +323,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkFewMinute"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Few minutes   ">
@@ -334,8 +334,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkLessThanH"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Less than an hour">
@@ -345,8 +345,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkBetweeOneEi"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Between 1-8 hours">
@@ -363,8 +363,8 @@
             android:layout_marginTop="10dp"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -377,7 +377,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Are there scheduled power outages?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -387,8 +387,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkYesOR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Yes">
@@ -398,8 +398,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkNOoR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="No">
@@ -409,8 +409,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkDontKnow"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Don't know">
@@ -423,8 +423,8 @@
                 android:layout_marginStart="10dp"
                 android:inputType="text"
                 android:text="Days"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"></CheckBox>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -439,8 +439,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -453,7 +453,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Does the health facility have a secondary source of electricity?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -463,8 +463,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkNo"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="No">
@@ -474,8 +474,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkGeneratorSec"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Generator">
@@ -485,8 +485,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkSolPanels"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Solar Panels">
@@ -496,8 +496,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOtherSec"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Other">
@@ -514,8 +514,8 @@
             android:layout_marginTop="10dp"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -528,7 +528,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Does the secondary power source provide power to the entire hospital?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -538,8 +538,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkYesProvPO"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Yes">
@@ -549,8 +549,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkNoProvPO"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="No">
@@ -567,8 +567,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVSecPoSrc"
@@ -579,7 +579,7 @@
                 android:layout_marginStart="10dp"
                 android:text="If it is only part, which of the following areas receives power from the secondary power source?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 />
@@ -589,8 +589,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkICU"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="ICU">
@@ -600,8 +600,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkOpTheatre"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Operating Theatre     ">
@@ -611,8 +611,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkByEmrgeRoom"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Emergency Room">
@@ -629,8 +629,8 @@
             android:hint="Other"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/id_other"
@@ -638,8 +638,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -653,8 +653,8 @@
             android:hint="Comments on the secondary power source"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idComPoSrc"
@@ -662,8 +662,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -677,8 +677,8 @@
             android:hint="What was the electricity usage of the last month (# kWh)?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idElectUsaLast"
@@ -686,8 +686,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -701,8 +701,8 @@
             android:hint="What was the cost/electricity bill for the last month (# Metical)?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idCostOrElect"
@@ -710,8 +710,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -725,8 +725,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
 
             <TextView
@@ -739,7 +739,7 @@
                 android:layout_marginEnd="10dp"
                 android:text="Condition of the electrical system"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -749,8 +749,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkDanger"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Dangerous ">
@@ -760,8 +760,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkPoor"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Poor">
@@ -771,8 +771,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkAdequate"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Adequate">
@@ -782,8 +782,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkGood"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Good">
@@ -819,7 +819,7 @@
                 android:text="Save"
                 android:textAllCaps="false" />
         </LinearLayout>
-        
+
     </LinearLayout>
 
 </ScrollView>

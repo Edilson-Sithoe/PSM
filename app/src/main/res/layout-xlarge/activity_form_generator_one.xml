@@ -21,7 +21,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -36,8 +36,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVGHFac"
@@ -48,7 +48,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is there a generator in the health facility?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -63,39 +63,39 @@
                 android:orientation="horizontal"
                 android:weightSum="4">
 
-            <CheckBox
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkNo"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="0dp"
-                android:text="Yes">
-            </CheckBox>
-            <CheckBox
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkYes"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="No">
-            </CheckBox>
-            <CheckBox
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/IdChkDontKnow"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Don’t know">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkNo"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkYes"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/IdChkDontKnow"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Don’t know">
+                </CheckBox>
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -110,8 +110,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVSupElect"
@@ -122,7 +122,7 @@
                 android:layout_marginStart="10dp"
                 android:text="If so, which of the following areas does it supply electricity to?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -132,8 +132,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkWhoHosp"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="The whole hospital ">
@@ -144,8 +144,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkOpTheatre"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Operating theatre">
@@ -155,8 +155,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkEmergRoom"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Emergency Room">
@@ -167,8 +167,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkLab"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Laboratory">
@@ -186,8 +186,8 @@
             android:hint="Other"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtOther"
@@ -195,8 +195,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -210,8 +210,8 @@
             android:hint="How old is the system?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVHOS"
@@ -222,7 +222,7 @@
                 android:layout_marginStart="10dp"
                 android:text="How old is the system?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -232,8 +232,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkLess"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Less than 3 years">
@@ -244,8 +244,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkB3_10"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Between 3-10 years">
@@ -256,8 +256,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkB11_20"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Between 11-20 years">
@@ -268,8 +268,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkMore20"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="More than 20 years ">
@@ -287,8 +287,8 @@
             android:hint="Is the generator working?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVGHF"
@@ -299,7 +299,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is the generator working?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -313,53 +313,53 @@
                 android:orientation="horizontal"
                 android:weightSum="4">
 
-            <CheckBox
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkGENY"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="0dp"
-                android:text="Yes">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkGENY"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="0dp"
+                    android:text="Yes">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="60dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkGENN"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="No">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkGENN"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="No">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkGENPartly"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text=" Partly">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkGENPartly"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text=" Partly">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkGENDontN"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Don’t know">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkGENDontN"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Don’t know">
+                </CheckBox>
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -374,8 +374,8 @@
             android:hint="What is the condition of the equipment?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVCEqui"
@@ -386,7 +386,7 @@
                 android:layout_marginStart="10dp"
                 android:text="What is the condition of the equipment?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -396,8 +396,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkGIU"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Good and in use">
@@ -408,8 +408,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkGBNU"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Good, but not in use">
@@ -420,8 +420,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkIU_BNR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="In use, but needs repair">
@@ -432,8 +432,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkIUNNTR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="In use, but needs to be replaced">
@@ -444,8 +444,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idchkOOSBR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Out of service, but repairable">
@@ -456,8 +456,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkOOSAndNR"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Out of service and needs to be replaced">
@@ -468,8 +468,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkStilInstPha"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Still in the installation phase">
@@ -480,8 +480,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkDontN"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Don’t know ">
@@ -498,8 +498,8 @@
             android:hint="Does the generator have an Automatic Transfer Switch (ATS)?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVATS"
@@ -510,7 +510,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Does the generator have an Automatic Transfer Switch (ATS)?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -530,8 +530,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -541,8 +541,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -552,8 +552,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idchkDN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="Don’t know">
@@ -571,8 +571,8 @@
             android:hint="I.G1. 08	Is the ATS working?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVATSW"
@@ -583,7 +583,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is the ATS working?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -602,8 +602,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkATSY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -614,8 +614,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkATSN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -626,8 +626,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkATSPartly"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text=" Partly">
@@ -638,8 +638,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkATDontN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="Don’t know">
@@ -657,8 +657,8 @@
             android:hint="Is there fuel available today?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVFuel"
@@ -669,7 +669,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is there fuel available today?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -689,8 +689,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkFuelY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -700,8 +700,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkFuelN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -719,8 +719,8 @@
             android:hint="What is the capacity of the generator (#kVA)?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtCapGen"
@@ -728,8 +728,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -743,8 +743,8 @@
             android:hint="Is there an active Preventive Maintenance (PM) program?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVPrevMain"
@@ -755,7 +755,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is there an active Preventive Maintenance (PM) program?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -775,8 +775,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkPMY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -786,8 +786,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkPMN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -805,8 +805,8 @@
             android:hint="PM activities are carried out by:"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVPMCarr"
@@ -817,7 +817,7 @@
                 android:layout_marginStart="10dp"
                 android:text="PM activities are carried out by:"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -827,8 +827,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkPMITPHF"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Internal Technical Personnel of the Health Facility">
@@ -839,8 +839,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkPMPDI"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Personnel from the Department of Infrastructure">
@@ -851,8 +851,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/idChkSubcontracted"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:text="Subcontracted">
@@ -869,8 +869,8 @@
             android:hint="What is the frequency of PM (every # months)?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtFreq"
@@ -878,8 +878,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -893,8 +893,8 @@
             android:hint="In case of subcontracting: what is the name of the maintenance company?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtNameOfMant"
@@ -902,8 +902,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -917,8 +917,8 @@
             android:hint="Does the health facility have a logbook for the maintenance of the generator (PM and CM)? "
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVPMCM"
@@ -929,7 +929,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Does the health facility have a logbook for the maintenance of the generator (PM and CM)? "
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -949,8 +949,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkPMCMY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -960,8 +960,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkPMCMN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -979,8 +979,8 @@
             android:hint="Is the logbook up to date?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVLogBook"
@@ -991,7 +991,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Is the logbook up to date?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -1011,8 +1011,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkLoBY"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="0dp"
                     android:text="Yes">
@@ -1022,8 +1022,8 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkLoBN"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="No">
@@ -1041,8 +1041,8 @@
             android:hint="Comments on the Generator"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtComent"
@@ -1050,8 +1050,8 @@
                 android:layout_height="wrap_content"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 

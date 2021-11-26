@@ -21,7 +21,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:textAllCaps="false"
-            android:textColor="@color/Blue"
+            android:textColor="@color/blueC"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -36,8 +36,8 @@
             android:hint="What is the average consumption of O2 of the Health facility (m3/year)?"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza"
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -46,8 +46,8 @@
                 android:layout_height="100dp"
                 android:importantForAutofill="no"
                 android:inputType="textLongMessage"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,8 +61,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVSupElect"
@@ -73,7 +73,7 @@
                 android:layout_marginStart="10dp"
                 android:text="What is the system used for the primary supply of O2?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -88,37 +88,37 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkFactory"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Factory ">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFactory"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Factory ">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkLiqTank"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="O2 Liquid Tank">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLiqTank"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="O2 Liquid Tank">
+                </CheckBox>
 
                 <CheckBox
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkManifold"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="Manifold">
@@ -136,41 +136,41 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkConc"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Concentrators">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkConc"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Concentrators">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkCylinders"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Cylinders">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkCylinders"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Cylinders">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkNA"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="N/A">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkNA"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="N/A">
+                </CheckBox>
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -186,8 +186,8 @@
             android:hint="Date of Interview"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVSupElectPS"
@@ -198,7 +198,7 @@
                 android:layout_marginStart="10dp"
                 android:text="What is the system used for the primary supply of O2?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -212,36 +212,36 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkFactoryPS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Factory ">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFactoryPS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Factory ">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkLiqTankPS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="O2 Liquid Tank">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLiqTankPS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="O2 Liquid Tank">
+                </CheckBox>
                 <CheckBox
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/idChkManifoldPS"
                     android:inputType="text"
-                    android:textColor="@color/Blue"
-                    android:textColorHint="@color/Blue"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
                     android:textSize="14sp"
                     android:layout_marginStart="10dp"
                     android:text="Manifold">
@@ -257,41 +257,41 @@
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
                 android:weightSum="3">
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkConcPS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Concentrators">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkConcPS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Concentrators">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkCylindersPS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Cylinders">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkCylindersPS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Cylinders">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkNAPS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="N/A">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkNAPS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="N/A">
+                </CheckBox>
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -306,8 +306,8 @@
             android:hint="How old is the system?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVHOS"
@@ -318,7 +318,7 @@
                 android:layout_marginStart="10dp"
                 android:text="What is the system used for the secondary supply of O2?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -332,40 +332,40 @@
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
                 android:weightSum="3">
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkFactorySS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Factory ">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFactorySS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Factory ">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkLiqTankSS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="O2 Liquid Tank">
-            </CheckBox>
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkManifoldSS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Manifold">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLiqTankSS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="O2 Liquid Tank">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkManifoldSS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Manifold">
+                </CheckBox>
             </LinearLayout>
 
             <LinearLayout
@@ -377,41 +377,41 @@
                 android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
                 android:weightSum="3">
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkConcSS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Concentrators">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkConcSS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Concentrators">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkCylindersSS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Cylinders">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkCylindersSS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Cylinders">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkNASS"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="N/A">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkNASS"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="N/A">
+                </CheckBox>
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -426,8 +426,8 @@
             android:hint="What is the condition of the equipment?"
             style="@style/Edit_Text"
             android:padding="0dp"
-            android:textColorHint="@color/cinza"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
 
             <TextView
                 android:id="@+id/idTVCondSE"
@@ -438,7 +438,7 @@
                 android:layout_marginStart="10dp"
                 android:text="What is the system used for the emergency supply of O2?"
                 android:textAllCaps="false"
-                android:textColor="@color/Blue"
+                android:textColor="@color/blueC"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 />
@@ -453,40 +453,40 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkFactoryES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Factory ">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkFactoryES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Factory ">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkLiqTankES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="O2 Liquid Tank">
-            </CheckBox>
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkManifoldES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Manifold">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkLiqTankES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="O2 Liquid Tank">
+                </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkManifoldES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Manifold">
+                </CheckBox>
             </LinearLayout>
 
             <LinearLayout
@@ -499,41 +499,41 @@
                 android:orientation="horizontal"
                 android:weightSum="3">
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkConcES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Concentrators">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkConcES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Concentrators">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkCylindersES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="Cylinders">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkCylindersES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="Cylinders">
+                </CheckBox>
 
-            <CheckBox
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/idChkNAES"
-                android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
-                android:textSize="14sp"
-                android:layout_marginStart="10dp"
-                android:text="N/A">
-            </CheckBox>
+                <CheckBox
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idChkNAES"
+                    android:inputType="text"
+                    android:textColor="@color/blueC"
+                    android:textColorHint="@color/blueC"
+                    android:textSize="14sp"
+                    android:layout_marginStart="10dp"
+                    android:text="N/A">
+                </CheckBox>
             </LinearLayout>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -547,8 +547,8 @@
             android:hint="General comment of the oxygen system"
             style="@style/Edit_Text"
             android:padding="15dp"
-            android:textColorHint="@color/Blue"
-            app:hintTextColor="@color/cinza">
+            android:textColorHint="@color/blueC"
+            app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/idTxtComentMGS"
@@ -556,8 +556,8 @@
                 android:layout_height="100dp"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:textColor="@color/Blue"
-                android:textColorHint="@color/Blue"
+                android:textColor="@color/blueC"
+                android:textColorHint="@color/blueC"
                 android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
 

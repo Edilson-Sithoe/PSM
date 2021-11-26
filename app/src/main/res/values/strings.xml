@@ -6,7 +6,6 @@
     <string name="title_dados">Informações</string>
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
-    <string name="todo">TODO</string>
     <string name="sair">Sair</string>
     <string name="just_outpatient_health_facility">Just outpatient health facility</string>
     <string name="identification_of_the_health">IDENTIFICATION OF THE HEALTH</string>
@@ -82,4 +81,5 @@
     <string name="nome">Nome</string>
     <string name="email">Email</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="todo">TODO</string>
 </resources>

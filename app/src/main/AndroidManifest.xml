@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="projecto.jhpiego.psm">
+    package="projecto.jhpiego.ett">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -17,6 +17,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PSM">
+        <activity
+            android:name=".view.FormHealthFacility_View"
+            android:exported="false" />
+        <activity
+            android:name=".view.FormHealthFacility"
+            android:exported="false" />
         <activity
             android:name=".view.FormMedGasOutlets"
             android:exported="false" />
